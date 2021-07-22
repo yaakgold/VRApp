@@ -72,11 +72,8 @@ public class MazeSpawner : MonoBehaviour
                     tmp.transform.parent = transform;
                 }
 
-                print("Is Goal: " + cell.IsGoal);
-                print("Prefab: " + goalPrefab);
                 if (cell.IsGoal && goalPrefab != null)
                 {
-                    print("Goaaaaaaaaalllllllllllllll");
                     tmp = Instantiate(goalPrefab, new Vector3(x, 1, z), Quaternion.Euler(0, 0, 0));
                     tmp.transform.parent = transform;
                 }
