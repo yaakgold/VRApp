@@ -7,8 +7,8 @@ public abstract class BasicMazeGenerator
     public int RowCount { get { return mMazeRows; } }
     public int ComlumnCount { get { return mMazeColumns; } }
 
-    private int mMazeRows;
-    private int mMazeColumns;
+    protected int mMazeRows;
+    protected int mMazeColumns;
     private MazeCell[,] mMaze;
 
     public BasicMazeGenerator(int rows, int columns)

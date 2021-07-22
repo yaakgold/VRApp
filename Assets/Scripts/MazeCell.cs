@@ -9,6 +9,7 @@ public enum Direction
     Front,
     Left,
     Back,
+    Goal
 };
 
 public class MazeCell

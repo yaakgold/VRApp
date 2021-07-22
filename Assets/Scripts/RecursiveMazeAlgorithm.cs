@@ -66,6 +66,12 @@ public class RecursiveMazeAlgorithm : BasicMazeGenerator
                 GetMazeCell(row, column).WallBack = true;
             }
 
+            //check goal
+            if(row == mMazeRows - 1 && column == mMazeColumns - 1)
+            {
+                GetMazeCell(row, column).IsGoal = true;
+            }
+
             GetMazeCell(row, column).IsVisited = true;
 
             if(movesAvailableCount > 0)
