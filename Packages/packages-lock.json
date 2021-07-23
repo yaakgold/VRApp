@@ -33,7 +33,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
+<<<<<<< HEAD
       "version": "2.0.9",
+=======
+      "version": "2.0.11",
+>>>>>>> a532947f1856e8db04af1676dfd0116a7a08d2b0
       "depth": 0,
       "source": "registry",
       "dependencies": {
