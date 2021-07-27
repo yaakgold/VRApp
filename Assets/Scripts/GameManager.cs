@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     public void PlayGame()
     {
         //switch to game scene
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene(1);
     }
 
     public void Credits()
