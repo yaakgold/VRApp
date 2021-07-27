@@ -16,8 +16,10 @@ public class GameManager : MonoBehaviour
 
     public void Credits()
     {
-        //activate credits panel
-        //deactivate main panel
+        //activate credits panel if not enabled
+            //if enabled, activate main menu
+        //deactivate main menu if enabled
+            //if not enabled, activate main menu
     }
 
     public void ExitGame()
