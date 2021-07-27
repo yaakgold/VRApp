@@ -20,14 +20,14 @@ public class GameManager : MonoBehaviour
     {
         //activate credits panel if not enabled
             //if enabled, activate main menu
-        if(creditsPanel == enabled)
+        if(creditsPanel.activeInHierarchy)
         {
             creditsPanel.SetActive(false);
             mainMenuPanel.SetActive(true);
         }
         //deactivate main menu if enabled
             //if not enabled, activate main menu
-        else if(mainMenuPanel == enabled)
+        else if(mainMenuPanel.activeInHierarchy)
         {
             creditsPanel.SetActive(true);
             mainMenuPanel.SetActive(false);
