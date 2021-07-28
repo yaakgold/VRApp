@@ -509,8 +509,8 @@ MonoBehaviour:
   floor: {fileID: 916917378494744782, guid: 98f5378049f9b5745a77677f581b32b1, type: 3}
   wall: {fileID: 7779381877309823848, guid: 2f6c4572e07a60b43b00e1c4f489a806, type: 3}
   pillar: {fileID: 3713104444964819695, guid: 2f3f7d4927009b84583c02fcbc509217, type: 3}
-  rows: 20
-  cols: 20
+  rows: 7
+  cols: 7
   cellWidth: 4
   cellHeight: 4
   addGaps: 0
