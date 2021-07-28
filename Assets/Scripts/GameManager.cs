@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
     //have the scene switch to the main menu scene
     public GameObject creditsPanel;
     public GameObject mainMenuPanel;
+    public GameObject finalBox;
+    public GameObject player;
 
     public void PlayGame()
     {
